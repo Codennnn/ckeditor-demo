@@ -25,6 +25,8 @@
     "@ant-design/pro-form": "^1.64.0",
     "@ant-design/pro-layout": "^6.35.0",
     "@ant-design/pro-table": "^2.71.6",
+    "@ckeditor/ckeditor5-build-classic": "^34.2.0",
+    "@ckeditor/ckeditor5-react": "^5.0.2",
     "@umijs/plugins": "4.0.6",
     "ahooks": "^3.5.2",
     "antd": "^4.21.5",
