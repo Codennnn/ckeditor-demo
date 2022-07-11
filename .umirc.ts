@@ -1,6 +1,4 @@
 export default {
-  outputPath: process.env.BUILD_ENV === 'prod' ? 'dist-prod' : 'dist-test',
-
   hash: true,
 
   fastRefresh: true,

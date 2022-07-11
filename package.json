@@ -5,9 +5,7 @@
     "陈梓聪 <20804846@dw.gdbbk.com> (https://leoku.top/)"
   ],
   "scripts": {
-    "build": "npm run test && npm run build-test && npm run build-prod",
-    "build-prod": "cross-env BUILD_ENV=prod umi build",
-    "build-test": "cross-env BUILD_ENV=test umi build",
+    "build": "umi build",
     "clean": "rm -rf ./node_modules/ ./src/.umi/",
     "deps": "yarn upgrade-interactive --latest",
     "dev": "umi dev",
